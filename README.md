@@ -12,10 +12,12 @@ for each of the python script in the folder
 
 ### Note
 for some of the folder with requirements.txt
-you need to create and activate the python virtual environment first by entering the below command in Git bash or Ubuntu WSL or any terminal then install the packages from requirements.txt
+you need to create and activate the python virtual environment first by entering the below command in Git bash or Ubuntu WSL or any terminal then install the packages from requirements.txt:
 ```
+# create a virtual environment in python
 python -m venv .venv
+# activate virtual environment in python
 source .venv/Script/activate
+# install packages
 pip install -r requirements.txt
-
 ```
