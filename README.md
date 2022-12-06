@@ -9,3 +9,13 @@ Install python and run the below command:
 python name-of-program.py
 ```
 for each of the python script in the folder
+
+### Note
+for some of the folder with requirements.txt
+you need to create and activate the python virtual environment first by entering the below command in Git bash or Ubuntu WSL or any terminal then install the packages from requirements.txt
+```
+python -m venv .venv
+source .venv/Script/activate
+pip install -r requirements.txt
+
+```
